@@ -1,0 +1,59 @@
+
+.form-container{
+    height: 700px;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-position:fixed;
+    background-size: cover;
+
+}
+
+
+
+.depositform{
+    height: 450px;
+    margin-top: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 1px solid black;
+    
+}
+.withdrawform{
+    height: 450px;
+    margin-top: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#tranfield{
+    width:80%;
+    height: 35px;
+    color: white;
+    border-radius:10px;
+    padding-left: 20px;
+    background: transparent; 
+    margin-top:5px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.transbtn{
+    text-align: center;
+    margin-left: 130px;
+    border: 1px;
+    margin-top:  60px;;
+}
+
+.depositform:hover{
+    box-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+}
+
+.withdrawform:hover {
+    box-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+}
+#tranfield:hover{
+    box-shadow: 0 0 20px #eaff00, 0 0 5px #ff00ea;
+}
+
+
